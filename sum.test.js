@@ -3,7 +3,7 @@ const sum = require('./sum');
 
 // toBe -- exactly identical 
 test("add 1 + 2 = 3", () => {
-    expect(sum(1,2)).toBe(3);
+    expect(sum(1)(2)(3)).toBe(6);
 })
 
 // toEqual -- test object

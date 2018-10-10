@@ -1,4 +1,8 @@
-function add(a,b) {
-    return a+ b;
+function add(a) {
+    return function(b){
+        return function(c){
+            return a + b + c
+        }
+    };
 }
 module.exports = add;
