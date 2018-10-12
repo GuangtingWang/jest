@@ -4,11 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "nock": "^10.0.1",
+    "node-fetch": "^2.2.0"
   }
 }
